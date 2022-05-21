@@ -1,0 +1,531 @@
+@media only screen and (min-width: 768px) {
+	#grilla {
+            grid-template-columns: repeat(4, 1fr);
+        }
+      .border {
+    	border: 4px solid black;
+    	background-color: blue;
+        }
+}
+
+.pcoficina{
+    height: 570px;
+    align-self: left;
+    transform:  rotate(5deg);
+    transition: height 2s, width 2s;
+}
+
+.pcoficina:hover {
+    height: 620px;
+}
+
+.pcestandar{
+    height: 570px;
+    align-self: center;
+    float: center;
+    transform: rotate(-5deg);
+    transition: height 2s, width 2s;
+}
+
+.pcestandar:hover {
+    height: 620px;
+}
+
+.pcgamer{
+    height: 600px;
+    align-self: right;
+    transform: rotate(5deg);
+    transition: height 2s, width 2s;
+}
+
+.pcgamer:hover {
+    height: 640px;
+}
+
+.pagoficina{
+    color: aliceblue;
+}
+
+.pagestandar{
+    color: aliceblue;
+}
+
+.paggamer{
+    color: aliceblue;
+}
+
+.componentes{
+    border: double;
+    width: 50%;
+    background-color: blue;
+     align-self: center;
+    align-content: center;
+    height: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 10px solid rgb(0, 0, 0);
+    
+}
+
+h2{
+     color: rgb(46, 46, 46);
+}
+
+.video{
+    background-color: rgb(168, 35, 245);
+    width: 1200;
+    height: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    animation-duration: 3s;
+    animation-name: aparecer; 
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    
+    25% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    75% {
+        opacity: 75%;
+    }
+    
+    100% {
+        opacity: 100%;
+    }
+}
+
+
+.cuerpo{
+    background-image: linear-gradient(to right, rgb(126, 24, 167), blue, rgb(126, 24, 167));
+    color: rgb(168, 35, 245);
+}
+.cuerpoe{
+    background-image: linear-gradient(to right, rgb(126, 24, 167), blue, rgb(126, 24, 167));
+        color: rgb(168, 35, 245);
+}
+
+.cuerpoc{
+    background-image: linear-gradient(to right, rgb(126, 24, 167), blue, rgb(126, 24, 167));
+    color: rgb(168, 35, 245);
+}
+
+.cuerpou{
+    background-image: linear-gradient(to right, rgb(126, 24, 167), blue, rgb(126, 24, 167));
+    color: rgb(168, 35, 245);
+}
+
+.cuerpoeo{
+    background-image: linear-gradient(to right, rgb(126, 24, 167), blue, rgb(126, 24, 167));
+    color: rgb(168, 35, 245);
+}
+
+.cuerpoes{
+    background-image: linear-gradient(to right, rgb(126, 24, 167), blue, rgb(126, 24, 167));
+    color: rgb(168, 35, 245);
+}
+
+.cuerpoeg{
+    background-image: linear-gradient(to right, rgb(126, 24, 167), blue);background-image: linear-gradient(to right, rgb(126, 24, 167), blue, rgb(126, 24, 167));
+    color: rgb(168, 35, 245);
+}
+                     
+
+
+h3{
+    color: rgb(0, 0, 0);
+}
+
+.titulo{
+    font-size: 35pt;
+    color: #000000;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+    
+}
+
+
+
+nav{
+    align-content: center;
+    align-self: center;
+    border: 5px solid black;
+    width: 100%;
+    position: sticky;
+}
+
+
+nav ul{
+    list-style: none;
+    font-size: 20;
+
+}
+
+nav ul ul{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    display: none;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+    width: 22%;
+    font-size: 20;
+    font-weight: bold;
+}
+
+
+
+ul ul li{
+    display: block;
+    color: rgb(0, 0, 0);
+}
+
+ul li:hover ul{
+    display: block;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a{
+    font-size: 20;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.actual{
+    font-size: 20;
+    color: rgb(177, 177, 177);
+}
+
+caption{
+    font-size: 25;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+caption strong{
+    color: rgb(44, 153, 255);
+}
+
+
+
+head img{
+    align-self: center;
+    align-content: center;
+    
+}
+
+label{
+    color: #000000;
+    font-size: x-large;
+
+}
+
+.email{
+    color: #000000;
+    font-size: x-large;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form input{
+    size:  100px;
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.comentario{
+    color: #000000;
+    font-size: x-large;
+}
+
+.coment{
+    font-size: large;
+}
+
+footer{
+    color: black;
+    background-color: black;
+}
+
+.recibeinfo{
+    color: #000000;
+    font-size: x-large;
+}
+
+.informacion{
+    font-size: large;
+    color: #000000;
+}
+
+form{
+    align-self: center;
+    align-content: center;
+    border: 5px double black;
+    
+}
+
+section article h3{
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section article ul li{
+    color: #000000;
+    font-size: medium;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.subtitulo{
+    font-family: cursive;
+    font-size: medium;
+}
+
+caption strong{
+    font-size: medium;
+}
+
+strong{
+    font-size: medium;
+}
+
+div h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.instagram{
+    height: 60px;
+    align-self: right;
+}
+
+.facebook{
+    height: 55px;
+}
+
+.twitter{
+    height: 60px;
+}
+
+.redes{
+    color: aliceblue;
+    position: static;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.direccion{
+    color: black;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p strong{
+    font-weight: bold;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.indicaciones{
+    color: black;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.legales{
+    font-size: large;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.setup{
+    margin-bottom: 15px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+.mapa{
+    width: 100%;
+    height: 900;
+    overflow: hidden;
+    border: 10px solid black;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+.fotopc{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.nombrespc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: darkmagenta;
+}
+
+.logosfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content:  flex-start;
+    flex-wrap: nowrap;
+}
+
+.legales{
+    font-size: large;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.dataubic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+.logo{
+    margin: auto;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+.introduccion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+.infopcs{
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 100;
+    background-color: darkmagenta;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: max-content;
+    justify-content: space-around;
+}
+
+.stockoficina{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(168, 35, 245);
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: max-content;
+    justify-content: space-around;
+    align-content: baseline;
+}
+
+.precios{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(168, 35, 245);
+    text-align: center;
+}
+
+.stockestandar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(168, 35, 245);
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: max-content;
+    justify-content: space-around;
+    align-content: baseline;
+}
+
+.stockgamer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(168, 35, 245);
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: max-content;
+    justify-content: space-around;
+    align-content: baseline;
+}
+
+.fotosoficina{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: baseline;
+}
+
+.fotosestandar{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: baseline;
+}
+
+.fotosgamer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: baseline;
+}
+
+
+
+
+
